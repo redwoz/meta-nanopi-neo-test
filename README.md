@@ -1,1 +1,1 @@
-# meta-nanopi-neo test for linux 4.9
+# yocto-manaus-manifest test for linux 4.9
