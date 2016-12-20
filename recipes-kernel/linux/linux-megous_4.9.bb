@@ -13,11 +13,11 @@ RDEPENDS_kernel-base += "kernel-devicetree"
 # http://lists.openembedded.org/pipermail/openembedded-core/2015-May/104616.html
 KCONFIG_MODE="--alldefconfig"
 
-DEFAULT_PREFERENCE = "-1"
+DEFAULT_PREFERENCE = "1"
 
 KERNEL_EXTRA_ARGS += "LOADADDR=${UBOOT_ENTRYPOINT}"
 
-PV = "4.9.git${SRCPV}"
+PV = "4.9"
 SRCREV_pn-${PN} = "992e8cb483ca7360f320ea91fb2dbe0284850fc7"
 
 S = "${WORKDIR}/git"
