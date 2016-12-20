@@ -11,7 +11,7 @@ SRC_URI = " \
 	file://boot.cmd \
 "
 
-SRCREV = "29e0cfb4f77f7aa369136302cee14a91e22dca71" #2016.11
+SRCREV = "29e0cfb4f77f7aa369136302cee14a91e22dca71"
 
 do_configure_prepend() {
 }
