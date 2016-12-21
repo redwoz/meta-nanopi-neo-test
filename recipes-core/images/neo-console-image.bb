@@ -13,6 +13,8 @@ FIRMWARE_INSTALL = " \
 SYSTEM_TOOLS_INSTALL = " \
 	i2c-tools \
 	cpuburn-neon \
+	memtester \
+	sysbench \
 "
 
 DEV_TOOLS_INSTALL = " \
