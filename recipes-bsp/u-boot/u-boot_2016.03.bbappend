@@ -11,8 +11,10 @@ SRC_URI = " \
 	file://boot.cmd \
 	file://clock_sun6i_fix.patch \
 "
+# 29e0cfb4f77f7aa369136302cee14a91e22dca71 / 2016.11 - unstable
 
-SRCREV = "29e0cfb4f77f7aa369136302cee14a91e22dca71"
+# 19ce924ff914f315dc2fdf79f357825c513aed6e / 2016.07 - https://forum.armbian.com/index.php/topic/2044-some-discovery-while-trying-520-builds/
+SRCREV = "19ce924ff914f315dc2fdf79f357825c513aed6e"
 
 do_configure_prepend() {
 }
