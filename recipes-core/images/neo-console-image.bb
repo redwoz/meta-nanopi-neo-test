@@ -12,6 +12,7 @@ FIRMWARE_INSTALL = " \
 
 SYSTEM_TOOLS_INSTALL = " \
 	i2c-tools \
+	cpuburn-neon \
 "
 
 DEV_TOOLS_INSTALL = " \
